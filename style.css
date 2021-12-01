@@ -54,13 +54,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.quote{
+font-style: italic;
+
+}
+
+.accentuate{
+font-style: tex gyre schola;
+font-weight: 900;
+  
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #9ea807;
+    background-color: #059790;
     overflow: hidden;
 }
 
@@ -72,7 +82,7 @@ nav li a {
     display: block;
     color: rgb(219, 44, 44);
     text-align: center;
-    padding: 14px 16px;
+    padding: 19px 19px;
     text-decoration: none;
 }
 
@@ -81,7 +91,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgb(233, 229, 14);
+    background-color: rgb(157, 208, 243);
 }
 
 
